@@ -1,4 +1,4 @@
-if RUBY_VERSION >= '2.5'
+if RUBY_VERSION >= '1.9'
   require 'securerandom'
 else
   require 'sysrandom/securerandom'
